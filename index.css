@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #252428;
+    color: #FFFFFF;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.site-header{
+    padding: 0 35px;
+}
+.alpha-header{
+    /* width: 100%; */
+}
+.navbar-collapse {
+    justify-content: space-evenly;
+    text-transform: capitalize;
+}
+
+.navbar-nav {
+
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: white !important;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 15px;
+    margin: 0 19px;
+    text-transform: uppercase;
+    padding: 40px 0 !important;
+
+    
+
+}
+.nav-item {
+    color: #032e42 !important;
+}
+
+.nav-item :hover {
+    border-bottom: 2px solid #0057FC;
+    text-decoration: none;
+    transition: all .3s ease-out;
+    max-width: 100%;
+    color: white !important;
+
+}
+
+.schedule_btn {
+    margin-left: 50px;
+
+}
+
+button {
+    border-radius: 1px;
+    border: none;
+    letter-spacing: 0.15em;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #f9af18;
+    padding: 15px !important;
+}
+
+button:hover {
+    background: #8767f5;
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+
+   
+
+}
+
+@media screen and (max-width: 768px) {
+
+   
+
+
+}
+
+@media only screen and (max-width: 480px) {
+   
+
+}
