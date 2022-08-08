@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+body{
+    background: black !important;
+}
 
 .navbar {
     background-color: #252428;
@@ -33,7 +36,7 @@
     margin: 0 19px;
     text-transform: uppercase;
     padding: 40px 0 !important;
-
+    position: relative;
     
 
 }
@@ -49,6 +52,20 @@
     color: white !important;
 
 }
+.nav-item ::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    border-top-width: 0.143em;
+    border-top-style: solid;
+    transform: scaleX(0);
+    transform-origin: right center;
+    transition: transform 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    border-color: #0057fc;
+}
+
 
 .schedule_btn {
     margin-left: 50px;
@@ -56,23 +73,45 @@
 }
 
 button {
-    border-radius: 1px;
-    border: none;
-    letter-spacing: 0.15em;
-    font-family: 'Bebas Neue';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    background: #f9af18;
-    padding: 15px !important;
+    font-size: 16px;
+    border-style: none;
+    text-transform: none;
+    max-width: 300px;
+    padding: 11px 32px !important;
+    border-radius: 3px;
+    line-height: 1.4;
+    display: inline-block;
+    border: 1px solid transparent;
+    
 }
 
 button:hover {
     background: #8767f5;
 }
 
+.box-1{
+    display: flex;
+    margin-top: 100px;
+}
+.box-1-img{
+    padding: 15px;
+    width: 100%;
+    max-width: 520px;
+    margin-left: 50px;
+}
+.header-text-container{
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1.08em;
+    margin-bottom: 32px;
+    color: white !important;
+    width: 70%;
+}
+.footer-text-container{
+    color: white !important;
+    margin-bottom: 0;
+    margin-top: 0;
+}
 
 
 
