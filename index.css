@@ -1,8 +1,10 @@
 * {
     box-sizing: border-box;
 }
-body{
+
+body {
     background: black !important;
+    color: white !important;
 }
 
 .navbar {
@@ -11,12 +13,15 @@ body{
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
-.site-header{
+
+.site-header {
     padding: 0 35px;
 }
-.alpha-header{
+
+.alpha-header {
     /* width: 100%; */
 }
+
 .navbar-collapse {
     justify-content: space-evenly;
     text-transform: capitalize;
@@ -37,9 +42,10 @@ body{
     text-transform: uppercase;
     padding: 40px 0 !important;
     position: relative;
-    
+
 
 }
+
 .nav-item {
     color: #032e42 !important;
 }
@@ -52,7 +58,8 @@ body{
     color: white !important;
 
 }
-.nav-item ::after{
+
+.nav-item ::after {
     content: '';
     position: absolute;
     left: 0;
@@ -82,53 +89,70 @@ button {
     line-height: 1.4;
     display: inline-block;
     border: 1px solid transparent;
-    
+
 }
 
 button:hover {
     background: #8767f5;
 }
 
-.box-1{
+.box-1 {
     display: flex;
     margin-top: 100px;
 }
-.box-1-img{
+
+.box-1-img {
     padding: 15px;
     width: 100%;
     max-width: 520px;
     margin-left: 50px;
+    position: absolute;
 }
-.header-text-container{
+
+.header-text-container {
     font-size: 56px;
     font-weight: 600;
     line-height: 1.08em;
     margin-bottom: 32px;
     color: white !important;
     width: 70%;
+
 }
-.footer-text-container{
+
+.text-container-circle {
+    position: relative;
+    top: 80px;
+    left: 90px;
+
+
+
+}
+
+.footer-text-container {
     color: white !important;
     margin-bottom: 0;
     margin-top: 0;
+
+}
+
+.send-msg {
+    margin-top: 30px;
+    padding: 8px 31px !important;
+}
+
+.listing-wrap {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: all .3s ease;
+}
+.row{
+    margin-top: 80px !important;
 }
 
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {}
 
-   
+@media screen and (max-width: 768px) {}
 
-}
-
-@media screen and (max-width: 768px) {
-
-   
-
-
-}
-
-@media only screen and (max-width: 480px) {
-   
-
-}
+@media only screen and (max-width: 480px) {}
