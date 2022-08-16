@@ -5,13 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <link rel="stylesheet" href="./index.css">
+  <!-- <script type="text/javascript" src="./index.js"></script>   -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
-<body>
+<body onload="load()">
   <header>
     <nav class="site-header navbar navbar-expand-lg navbar-light">
       <!-- <div class="alpha-header"> -->
@@ -56,35 +62,37 @@
     </nav>
   </header>
   <div class="box-1 container">
-    <div class="col-5 col-sm-6">
+    <div class="">
+      
       <div class="text-container-circle"><img src="./img/cicle-s@2x.webp" alt="blue-circle" width="273px"
           height="111px"></div>
+          <button type="button" class="btn btn-warning start-up">startup</button>
       <div class="header-text-container">The template your startup needed</div>
       <p class="footer-text-container">Awesome product pages. Mobile friendly. Easy.</p>
       <a href="https://sala.uxper.co/contact-01/" target="_blank"><button type="button"
           class="send-msg btn btn-primary">Let's talk - Send a message</button></a>
     </div>
-    <div class="col-7">
+    <div class="">
       <img class="box-1-img" src="./img/artwork-4.webp">
     </div>
   </div>
   <div class="container">
     <div class="main-box">
-      <div class="col listing-wrap">
+      <div class="listing-wrap">
         <div class="col-2"><img src="./img/security.png"></div>
         <div class="col-9">
           <h3>24/7 Support</h3>
           <p class="listing-box-footer">Nunc molestie tellus sapien, quis laoreet orci.</p>
         </div>
       </div>
-      <div class="col listing-wrap">
+      <div class="listing-wrap">
         <div class="col-2"><img src="./img/security.png"></div>
         <div class="col-9">
           <h3>Take Ownership</h3>
           <p class="listing-box-footer">Nunc molestie tellus sapien, quis laoreet orci.</p>
         </div>
       </div>
-      <div class="col listing-wrap">
+      <div class="listing-wrap">
         <div class="col-2"><img src="./img/security.png"></div>
         <div class="col-9">
           <h3>Team Work</h3>
@@ -94,24 +102,27 @@
     </div>
   </div>
   <section class="box-3">
-    <div class="main-box-3 container">
-      <div class="box-3-contant col-6">
+    <div class="box-1 container container">
+      <div class="box-3-contant">
         <div class="box-3-sub-header">Who We Are</div>
         <div class="header-box-3">We specialize in UI/UX, web development, digital marketing.</div>
         <p class="footer-text-container">It is a long established fact that a reader will be distracted by the readable
           content</p>
-        <div class="col-12 box-3-ul">
-          <div class="col-2"><img class="currect" src="./img/correct.png"></div>
-          <div class="col-9">Feugiat metus suscipiti.</div>
-        </div>
-        <div class="col-12 box-3-ul">
-          <div class="col-2"><img class="currect" src="./img/correct.png"></div>
-          <div class="col-9">Feugiat metus suscipiti.</div>
-        </div>
+          <div class="box-3-footer-ul">
+            <div class="box-3-ul">
+              <div class="col-2"><img class="currect" src="./img/correct.png"></div>
+              <div class="col-10">Feugiat metus suscipiti.</div>
+            </div>
+            <div class="box-3-ul">
+              <div class="col-2"><img class="currect" src="./img/correct.png"></div>
+              <div class="col-10">Feugiat metus suscipiti.</div>
+            </div>
+          </div>
+        
         <a href="https://sala.uxper.co/contact-01/" target="_blank"><button type="button"
             class="send-msg btn btn-primary">Let's talk - Send a message</button></a>
       </div>
-      <div class="col-6">
+      <div class="">
         <img class="box-1-img" src="./img/mega-creator-17@2x.webp">
       </div>
     </div>
@@ -137,131 +148,529 @@
   </section>
 
   <section class="box-3">
-    <div class="main-box-3 container">
-      <div class="col-6">
+    <div class="main-box-3  container">
+      <div class="">
         <img class="box-1-img" src="./img/mega-creator-17@2x.webp">
       </div>
-      <div class="box-3-contant col-6">
+      <div class="box-3-contant ">
         <div class="box-3-sub-header">Who We Are</div>
         <div class="header-box-3">We specialize in UI/UX, web development, digital marketing.</div>
         <p class="footer-text-container">It is a long established fact that a reader will be distracted by the readable
           content</p>
-
-
-        <div class="">
-          
-        </div>
-
-        <!-- <div
-          class="elementor-section elementor-inner-section elementor-element elementor-element-cbdc306 elementor-section-boxed elementor-section-gap-beside-yes elementor-section-height-default elementor-section-height-default elementor-section-column-vertical-align-stretch"
-          data-id="cbdc306" data-element_type="section">
-          <div class="elementor-container elementor-column-gap-extended">
-            <div
-              class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5c722df"
-              data-id="5c722df" data-element_type="column">
-              <div class="elementor-widget-wrap elementor-element-populated">
-                <div
-                  class="elementor-element elementor-element-cb2a378 counter-left no-prefix suffix-color elementor-widget elementor-widget-counter"
-                  data-id="cb2a378" data-element_type="widget" data-widget_type="counter.default">
-                  <div class="elementor-widget-container">
-                    <div class="elementor-counter">
-                      <div class="elementor-counter-number-wrapper">
-                        <span class="elementor-counter-number-prefix"></span>
-                        <span class="elementor-counter-number" data-duration="2000" data-to-value="100"
-                          data-from-value="0">100</span>
-                        <span class="elementor-counter-number-suffix">K<span>+</span></span>
-                      </div>
-                      <div class="elementor-counter-title">Meeting Rooms</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <p class="fs-2 text-light"><span id='0103'>12</span><span class="value-sign">%</span></p>
+              <p class="text-light align-content-center">Private Office</p>
             </div>
-            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-643b850"data-id="643b850" data-element_type="column">
-              <div class="elementor-widget-wrap elementor-element-populated">
-                <div class="elementor-element elementor-element-a1e7ed5 counter-left no-prefix suffix-color elementor-widget elementor-widget-counter"
-                  data-id="a1e7ed5" data-element_type="widget" data-widget_type="counter.default">
-                  <div class="elementor-widget-container">
-                    <div class="elementor-counter">
-                      <div class="elementor-counter-number-wrapper">
-                        <span class="elementor-counter-number-prefix"></span>
-                        <span class="elementor-counter-number" data-duration="2000" data-to-value="55"
-                          data-from-value="0">55</span>
-                        <span class="elementor-counter-number-suffix"><span>%</span></span>
-                      </div>
-                      <div class="elementor-counter-title">Meeting Rooms</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="col-sm">
+              <p class="fs-2 text-light"><span id='0101'>0</span><span>M</span><span class="value-sign">+</span></p>
+              <p class="text-light">Coworking Desks </p>
             </div>
           </div>
-        </div> -->
-
-
-
-
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <p class="fs-2 text-light"><span id='0102'>12</span><span class="value-sign">%</span></p>
+              <p class="text-light align-content-center">Average complain rate</p>
+            </div>
+            <div class="col-sm">
+              <p class="fs-2 text-light"><Span id='0104'>0</Span><span class="value-sign">%</span></p>
+              <p class="text-light">Site visits</p>
+            </div>
+          </div>
+        </div>
         <a href="https://sala.uxper.co/contact-01/" target="_blank"><button type="button"
-            class="send-msg btn btn-primary">Let's talk - Send a message</button></a>
+            class="send-msg btn btn-primary">See our services</button></a>
       </div>
 
     </div>
   </section>
+  <script>
+    function animate(obj, initVal, lastVal, duration) {
+      let startTime = null;
 
+      //get the current timestamp and assign it to the currentTime variable
+      let currentTime = Date.now();
 
+      //pass the current timestamp to the step function
+      const step = (currentTime) => {
 
+        //if the start time is null, assign the current time to startTime
+        if (!startTime) {
+          startTime = currentTime;
+        }
 
+        //calculate the value to be used in calculating the number to be displayed
+        const progress = Math.min((currentTime - startTime) / duration, 1);
 
+        //calculate what to be displayed using the value gotten above
+        obj.innerHTML = Math.floor(progress * (lastVal - initVal) + initVal);
 
+        //checking to make sure the counter does not exceed the last value (lastVal)
+        if (progress < 1) {
+          window.requestAnimationFrame(step);
+        } else {
+          window.cancelAnimationFrame(window.requestAnimationFrame(step));
+        }
+      };
+      //start animating
+      window.requestAnimationFrame(step);
+    }
+    let text1 = document.getElementById('0101');
+    let text2 = document.getElementById('0102');
+    let text3 = document.getElementById('0103');
+    let text4 = document.getElementById('0104');
+    const load = () => {
+      animate(text1, 0, 20, 3000);
+      animate(text2, 0, 100, 3000);
+      animate(text3, 0, 98, 3000);
+      animate(text4, 90, 15, 3000);
+    }
+  </script>
 
-
-  <!-- 
   <div class="container">
-  <div class="row">
-    <div class="card mb-3">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="..." class="img-fluid rounded-start" alt="...">
+    <div class="row booking-box">
+      <div class="booking-content">
+        <h3>Subscribe to <mark class="news-footer"> Newsletter</mark></h3>
+        <h4>Uncover, analyze, track, and report on SEO data.</h4>
+        <section class="newsletter">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="content">
+                  <div class="input-group">
+                    <input type="email" class="form-control" placeholder="Enter your email">
+                    <span class="input-group-btn">
+                      <button class="btn" type="submit">Subscribe Now</button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+         
+        </section>
+        <div class="newsletter-footer">
+          <div class="box-3-ul">
+            <div class="col-2"><img class="currect" src="./img/correct.png"></div>
+            <div class="col-8">No credit card required</div>
+          </div>
+          <div class="box-3-ul">
+            <div class="col-2"><img class="currect" src="./img/correct.png"></div>
+            <div class="col-8">No credit card required</div>
+          </div>
         </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+      <div class="col-6">
+        <img class="contact-img" src="./img/mega-creator-4.svg">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <p class="text-center fs-6 service">service</p>
+    <p class="text-center fs-2 service-footer">Built for all company sizes</p>
+    <div class="service-box">
+      <div class="row">
+        <div class="col-sm-6 service-single">
+          <div class="col-md-3">
+            <img src="./img/rocket.svg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-9">
+            <div class="card-body">
+              <h5 class="card-title">Qualitative Research</h5>
+              <p class="card-text">It is a long established fact that a reader will be distracted</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 service-single">
+          <div class="col-md-3">
+            <img src="./img/pie-chart.svg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-9">
+            <div class="card-body">
+              <h5 class="card-title">Qualitative Research</h5>
+              <p class="card-text">It is a long established fact that a reader will be distracted</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="card mb-3">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="..." class="img-fluid rounded-start" alt="...">
+    <div class="service-box">
+      <div class="row">
+        <div class="col-sm-6 service-single">
+          <div class="col-md-3">
+            <img src="./img/full-moon.svg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-9">
+            <div class="card-body">
+              <h5 class="card-title">Qualitative Research</h5>
+              <p class="card-text">It is a long established fact that a reader will be distracted</p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <div class="col-sm-6 service-single">
+          <div class="col-md-3">
+            <img src="./img/rocket.svg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-9">
+            <div class="card-body">
+              <h5 class="card-title">Qualitative Research</h5>
+              <p class="card-text">It is a long established fact that a reader will be distracted</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="card mb-3">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="..." class="img-fluid rounded-start" alt="...">
+    <div class="service-box">
+      <div class="row">
+        <div class="col-sm-6 service-single">
+          <div class="col-md-3">
+            <img src="./img/rocket.svg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-9">
+            <div class="card-body">
+              <h5 class="card-title">Qualitative Research</h5>
+              <p class="card-text">It is a long established fact that a reader will be distracted</p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <div class="col-sm-6 service-single">
+          <div class="col-md-3">
+            <img src="./img/rocket.svg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-9">
+            <div class="card-body">
+              <h5 class="card-title">Qualitative Research</h5>
+              <p class="card-text">It is a long established fact that a reader will be distracted</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-    </div> -->
+  <div class="slider-box">
+    <div class="container">
+      <p class="text-center fs-6 service">TESTIMONIAL</p>
+      <p class="text-center fs-2 service-footer">People who already love us</p>
+
+
+
+
+
+
+
+<!-- slider start -->
+      <div class="main-slider-box">
+        <div class="mySlides">
+          <div class="mySlides_container">
+            <div class="mySlides_wrapper">
+              <div class="col-12 thoughts">
+                A amazing WordPress theme designed specifically for a startup, apps, business, SaaS, and IT designed specifically for a startup, services.
+              </div>
+              <div class="col-12 profile-2">
+                <div class="col-2 user-img"><img src="./img/ava-1.png"></div>
+                <div class="col-8 profile-status">
+                  <div class="col-6 user-name">B Siva Rama Krishna Rao (Current employee)</div>
+                  <div class="col-6 user-details">Assistant Store Manager</div>
+                </div>
+                <div class="col-2 user-img"><img src="./img/lg-pn-1.png"></div>
+              </div>
+            </div>
+            <div class="mySlides_wrapper">
+              <div class="col-12 thoughts">
+                A amazing WordPress theme designed specifically for a startup, apps, business, SaaS, and ITdesigned specifically for a startup, services.
+              </div>
+              <div class="col-12 profile-2">
+                <div class="col-2 user-img"><img src="./img/ava-1.png"></div>
+                <div class="col-8 profile-status">
+                  <div class="col-6 user-name">B Siva Rama Krishna Rao (Current employee)</div>
+                  <div class="col-6 user-details">Assistant Store Manager</div>
+                </div>
+                <div class="col-2 user-img"><img src="./img/lg-pn-1.png"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mySlides">
+          <div class="mySlides_container">
+            <div class="mySlides_wrapper">
+              <div class="col-12 thoughts">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit eque ipsum odio justo amet urna auctor. At congue
+                vulputate augue praesent mauris eu posuere pretium tellus. Viverra volutpat a
+                est quis egestas id risus cursus venenatis.
+              </div>
+              <div class="col-12 profile-2">
+                <div class="col-2 user-img"><img src="./img/ava-2.png"></div>
+                <div class="col-8 profile-status">
+                  <div class="col-6 user-name">B Siva Rama Krishna Rao (Current employee)</div>
+                  <div class="col-6 user-details">Assistant Store Manager</div>
+                </div>
+                <div class="col-2 user-img"><img src="./img/lg-pn-2.webp"></div>
+              </div>
+            </div>
+            <div class="mySlides_wrapper">
+              <div class="col-12 thoughts">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit eque ipsum odio justo amet urna auctor. At congue
+                vulputate augue praesent mauris eu posuere pretium tellus. Viverra volutpat a
+                est quis egestas id risus cursus venenatis.
+              </div>
+              <div class="col-12 profile-2">
+                <div class="col-2 user-img"><img src="./img/ava-1.png"></div>
+                <div class="col-8 profile-status">
+                  <div class="col-6 user-name">B Siva Rama Krishna Rao (Current employee)</div>
+                  <div class="col-6 user-details">Assistant Store Manager</div>
+                </div>
+                <div class="col-2 user-img"><img src="./img/lg-pn-1.png"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mySlides">
+          <div class="mySlides_container">
+            <div class="mySlides_wrapper">
+              <div class="col-12 thoughts">
+                A amazing WordPress theme designed specifically for a startup, apps, business, SaaS, and IT services.business, SaaS, and IT services.
+              </div>
+              <div class="col-12 profile-2">
+                <div class="col-2 user-img"><img src="./img/ava-1.png"></div>
+                <div class="col-8 profile-status">
+                  <div class="col-6 user-name">B Siva Rama Krishna Rao (Current employee)</div>
+                  <div class="col-6 user-details">Assistant Store Manager</div>
+                </div>
+                <div class="col-2 user-img"><img src="./img/lg-pn-1.png"></div>
+              </div>
+            </div>
+            <div class="mySlides_wrapper">
+              <div class="col-12 thoughts">
+                A amazing WordPress theme designed specifically for a startup, apps, business, SaaS, and IT services.business, SaaS, and IT services.
+              </div>
+              <div class="col-12 profile-2">
+                <div class="col-2 user-img"><img src="./img/ava-1.png"></div>
+                <div class="col-8 profile-status">
+                  <div class="col-6 user-name">B Siva Rama Krishna Rao (Current employee)</div>
+                  <div class="col-6 user-details">Assistant Store Manager</div>
+                </div>
+                <div class="col-2 user-img"><img src="./img/lg-pn-1.png"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+
+      <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) { slideIndex = 1 }
+          if (n < 1) { slideIndex = slides.length }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+          captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+      </script>
+
+    </div>
+  </div>
+
+  <section>
+    <div class="blog-box-top container">
+      <p class="text-center fs-2 service-footer">From our blog</p>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 blog-card">
+            <img src="./img/11-740x540.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://sala.uxper.co/category/resources/">Tutorials</a></h5>
+              <p class="card-text"><a href="https://sala.uxper.co/category/resources/">How much does it cost to start and run a website?</a></p>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 blog-card">
+            <img src="./img/11-740x540.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://sala.uxper.co/category/resources/">Card title</a></h5>
+              <p class="card-text"><a href="https://sala.uxper.co/category/resources/">How much does it cost to start and run a website?</a></p>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 blog-card">
+            <img src="./img/11-740x540.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="https://sala.uxper.co/category/resources/">Card title</a></h5>
+              <p class="card-text"><a href="https://sala.uxper.co/category/resources/">How much does it cost to start and run a website?</a></p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="main-box-6 container-fluid">
+    <div class="container inner-box-4">
+      <div class="box-6-contant col-6">
+        <div class="box-6-sub-header">COMPANY’S VISION</div>
+        <div class="elementor-kit-3655">The story behind how our company was founded</div>
+        <p class="footer-text-container-6">It is a long established fact that a reader will be distracted by the
+          readable
+          content</p>
+
+        <a href="https://sala.uxper.co/contact-01/" target="_blank"><button type="button"
+            class="read-more devider-right btn btn-primary">Contact Us</button></a>
+      </div>
+      <!-- <div class="col-6">
+        <img class="box-4-img" src="./img/women.webp">
+      </div> -->
+    </div>
+    </div>
+
+  </section>
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <img src="./img/black.svg">
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <!-- <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6> -->
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <!-- <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6> -->
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <!-- <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6> -->
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+          <section>
+            
+                <!-- <div class="col-md-12 col-md-offset-3">
+                   <div class="well"> -->
+                         <!-- <form action="#"> -->
+                          <div class=" col-12">
+                             <input class=" col-6 input-field btn btn-lg" name="email" id="email" type="email" placeholder="Your Email" required>
+                             <button class="col-5 submit-field btn btn-info btn-lg" type="submit">Subscribe</button>
+                          </div>
+                         </form>
+                   </div>
+                </div>
+              </div>
+            </div>
+            </section>
+          </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <div class="lower-footer">
+    <div class="container">
+      <div class="text-left p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">© 2021 Uxper. All rights reserved
+
+        </a>
+      </div>
+    </div>
+  </div>
+
+</footer>
+<!-- Footer -->
+
+
+
 
 
 </body>
